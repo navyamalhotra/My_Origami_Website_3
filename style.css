@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    background-color: burlywood;
+    color: #008000;
+    justify-content: center;
+}
+
+
+.description{
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+ text-align: center;
+ color: #ffffff;
+ background-color: burlywood;
+ 
+}
+/** {
+  border: solid;
+}*/
+.grid {
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: green;
+  justify-content: center;
+}
+.panda:hover img{
+opacity: 0.66;
+}
+.panda{
+  margin-left: 130px;
+}
+.teddy:hover{
+  opacity: 0.66;
+}
+.teddy{
+  margin-left: 60px;
+}
+.camel:hover img{
+  opacity: 0.66;
+}
+.chameleon:hover img{
+opacity: 0.66;
+}
